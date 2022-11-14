@@ -17,7 +17,7 @@ module.exports = () => {
     plugins: [
       //Generates our html and injects our bundle
       new HtmlWebpackPlugin({
-        template: "/.index.html",
+        template: "./index.html",
         title: "Text Editor",
       }),
       new InjectManifest({
