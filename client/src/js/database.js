@@ -24,7 +24,7 @@ export const putDb = async content => {
   const request = store.put(content, 'Editor')
 
   const result = await request
-  console.log('🚀 - data saved to the database', result)
+  console.log(' data saved to the database', result)
 }
 
 export const getDb = async () => {
